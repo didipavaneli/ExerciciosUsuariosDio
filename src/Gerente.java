@@ -5,7 +5,7 @@ public class Gerente extends Usuario{
 
 
 
-    public Gerente(String nome, String email, String senha, boolean administrador) {
+    public Gerente(String nome, String email, String senha) {
         super(nome, email, senha, true); // administrador = true
     }
     //Metodos especificos do gerente
